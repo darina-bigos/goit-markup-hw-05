@@ -391,8 +391,7 @@
                     <div class="cont-form">
                         <label class="foter-label" for="input-subscribe">Subscribe</label>
                         <input class="foter-input" type="email" id="input-subscribe" name="input-subscribe"
-                            placeholder="E-mail">
-                        </input>
+                            placeholder="E-mail" />
                     </div>
                     <button type="submit" class="btn-footer">
                         Subscribe
@@ -404,6 +403,55 @@
             </div>
         </div>
     </footer>
+
+    <div class="backdrop is-open">
+        <div class="modal">
+            <button class="bnt-close" type="button">
+                <svg class="icon-close-form" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <p class="name-form">Leave your contacts and we will call you back</p>
+            <form class="form-contacts">
+                <div class="cont-user-name">
+                    <label for="user-name" class="user-name title-input">Name</label>
+                    <div class="cont-input-name">
+                        <input type="text" name="user-name" id="user-name" class="input-contacts input-person" required>
+                        <svg class="icon-person" width="18" height="24">
+                            <use href="./images/icons.svg#icon-person"></use>
+                        </svg>
+                        </input>
+                    </div>
+                </div>
+                <div class="cont-user-tel">
+                    <label for="user-tel" class="user-tel title-input" name="user-tel">Phone</label>
+                    <div class="cont-input-tel">
+                        <input type="tel" id="user-tel" name="user-tel" class="input-contacts input-tel" required>
+                        <svg class="icon-tel" width="18" height="24">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                        </input>
+                    </div>
+                </div>
+                <div class="cont-user-mail">
+                    <label for="user-mail" class="user-mail title-input">Email</label>
+                    <div class="cont-input-email">
+                        <input type="email" id="user-mail" name="user-mail" class="input-contacts" required>
+                        <svg class="icon-email" width="18" height="24">
+                            <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                        </input>
+                    </div>
+                </div>
+                <div class="cont-coment">
+                    <label class="user-coment-title" for="user-coment">Comment</label>
+                    <textarea class="user-coment-text" name="user-coment" id="user-coment"
+                        placeholder="Text input"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
+
 
 </html>
