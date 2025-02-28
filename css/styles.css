@@ -519,8 +519,9 @@ a {
   background-color: #31d0aa;
 }
 
-.social-footer {
-  margin-right: 80px;
+
+.conteiner-subscribe {
+  margin-left: auto;
 }
 
 .form-footer {
@@ -580,6 +581,12 @@ a {
   border: none;
   cursor: pointer;
   margin-top: 40px;
+}
+
+
+.btn-footer:hover,
+.btn-footer:focus {
+  background-color: #404bbf;
 }
 
 .icon-send {
