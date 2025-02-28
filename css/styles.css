@@ -529,58 +529,54 @@ a {
   gap: 24px;
 }
 
-.cont-form {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
 
-.foter-label {
+.foter-subscribe-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 
-.foter-input {
-  border: 1px solid #fff;
+.footer-input {
+  border: 1px solid #ffffff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: #2e2f42;
-}
-
-.form-footer input::placeholder {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  background-color: transparent;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.form-footer .footer-input::placeholder {
   color: #fff;
-  padding: 8px 16px;
 }
 
 .btn-footer {
   display: flex;
   gap: 16px;
+  justify-content: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-align: center;
   color: #fff;
   border-radius: 4px;
   padding: 8px 24px;
-  max-width: 165px;
+  min-width: 165px;
   height: 40px;
   background: #4d5ae5;
   border: none;
   cursor: pointer;
-  margin-top: 40px;
 }
 
 
@@ -591,6 +587,7 @@ a {
 
 .icon-send {
   fill: #fff;
+  margin-left: 16px;
 }
 
 
