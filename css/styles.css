@@ -561,7 +561,6 @@ a {
 
 .btn-footer {
   display: flex;
-  gap: 16px;
   justify-content: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
@@ -681,17 +680,6 @@ a {
   margin-bottom: 8px;
 }
 
-.form-contacts {
-  width: 360px;
-  min-height: 336px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-
-
 .title-input {
   display: block;
   font-weight: 400;
@@ -753,7 +741,6 @@ a {
   min-height: 120px;
   resize: none;
   padding: 8px 16px;
-  margin-bottom: 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
